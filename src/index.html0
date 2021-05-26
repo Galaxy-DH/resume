@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>简历 | 黄东</title>
+  <title>简历 | 吴浩麟</title>
   <link rel="stylesheet" href="main?_inline">
   <base target="_blank">
 </head>
@@ -18,15 +18,15 @@
   <header class="content-hd">
     <section class="title">
       <div class="name">
-        <h1>黄东</h1>
+        <h1>吴浩麟</h1>
       </div>
       <div class="job">
-        <h2>C++后端工程师</h2>
+        <h2>Web前端开发工程师 | Golang后端工程师</h2>
       </div>
     </section>
     <section class="info">
       <ul>
-        <li>男 / 1998.12</li>
+        <li>男 / 1993.10</li>
         <li>华中师范大学 · 计算机科学与技术</li>
         <li>本科 / 2016年毕业</li>
       </ul>
