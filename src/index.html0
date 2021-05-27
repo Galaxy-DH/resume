@@ -90,6 +90,7 @@
           <h2 class="section-title">工作经历</h2>
           <span class="section-title-r"></span>
         </header>
+
         <div class="section-bd">
 
           <!--经历:工作-->
@@ -266,6 +267,7 @@
         <h2 class="section-title">掌握技能</h2>
         <span class="section-title-r"></span>
       </header>
+      
       <div class="content-left">
         <section class="section-bd">
           <!--技能:JS-->
