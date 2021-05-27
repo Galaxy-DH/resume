@@ -3,7 +3,8 @@ name: Build & Pub
 on:
   push:
     branches:
-      - master
+      #- master
+      - gh-pages
 
 jobs:
   build:
@@ -25,6 +26,7 @@ jobs:
           git add .
           git commit -m "GitHub Action build docs" -a
       - name: Push changes
+        #uses: ad-m/github-push-action@master
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
