@@ -80,7 +80,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 30px 50px;
+  padding: 20px 50px;
   color: #fff;
   background-color: $color-green;
   overflow: hidden;
@@ -220,7 +220,7 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 50px;
+  padding: 5px 35px 0px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 20px 20px 50px;
@@ -244,13 +244,13 @@ a {
 
   section {
     overflow: hidden;
-    padding: 10px 15px;
+    padding: 0px 15px;
   }
 
   .section-hd {
     position: relative;
     height: 32px;
-    margin: 10px auto 5px;
+    margin: 10px auto 10px;
     overflow: hidden;
   }
 
@@ -265,7 +265,7 @@ a {
     }
 
     .item {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
   }
 
@@ -308,7 +308,7 @@ a {
 
   .item-hd {
     position: relative;
-    padding: 10px 0 5px;
+    padding: 10px 0px 5px;
     line-height: 20px;
     overflow: hidden;
     font-weight: 500;
@@ -319,7 +319,7 @@ a {
       font-size: 16px;
       display: inline-block;
       float: left;
-      width: 25%;
+      width: 50%;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
