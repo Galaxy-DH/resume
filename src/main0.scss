@@ -80,9 +80,7 @@ a {
 
 .content-hd {
   width: 100%;
-  //简历头部绿色：高度 宽度
   padding: 30px 50px;
-  padding: 8px 50px;
   color: #fff;
   background-color: $color-green;
   overflow: hidden;
@@ -222,14 +220,10 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  //技术栈：顶部 左右 底部
-  //padding: 20px 30px 50px;
-  padding: 15px 30px 0px;
-  //padding: 0px 30px 0px;
+  padding: 20px 30px 50px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
-    //手机屏幕：顶部 左右 底部
-    padding: 0px 20px 0px;
+    padding: 20px 20px 50px;
   }
 
   .content-left,
@@ -250,14 +244,13 @@ a {
 
   section {
     overflow: hidden;
-    //左右图标间距
-    padding: 0px 15px;
+    padding: 10px 15px;
   }
 
   .section-hd {
     position: relative;
     height: 32px;
-    margin: 10px auto 10px;
+    margin: 10px auto 5px;
     overflow: hidden;
   }
 
@@ -272,7 +265,7 @@ a {
     }
 
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
   }
 
@@ -301,7 +294,6 @@ a {
     width: 24%;
     min-width: 100px;
     margin: 0 auto;
-    //标题阴影块高度 
     padding: 4px 10px;
     @include border-radius(32px);
     font-size: 16px;
@@ -316,43 +308,16 @@ a {
 
   .item-hd {
     position: relative;
-    //标题阴影块与下文内容间距，注意图标不要被折叠了
     padding: 10px 0 5px;
-    //padding: 0px 0px 5px;
     line-height: 20px;
     overflow: hidden;
     font-weight: 500;
     min-height: 30px;
 
     .item-time {
-      color: rgb(0, 0, 0);
-      font-size: 16px;
       display: inline-block;
       float: left;
-      width: 50%;
-      @media screen and (max-width: 720px) {
-        width: 100%;
-        margin-bottom: 5px;
-      }
-    }
-
-    .item-time1 {
-      color: rgb(0, 0, 0);
-      font-size: 20px;
-      display: inline-block;
-      float: left;
-      width: 50%;
-      @media screen and (max-width: 720px) {
-        width: 100%;
-        margin-bottom: 5px;
-      }
-    }
-
-    .item-time2 {
-      color: rgb(0, 0, 0);
-      font-size: 18px;
-      display: inline-block;
-      float: left;
+      width: 25%;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
@@ -382,37 +347,6 @@ a {
     text-align: justify;
     word-break: break-all;
     line-height: 22px;
-
-    em {
-      display: inline-block;
-      font-family: Menlo, $font-family;
-      font-size: 12px;
-      line-height: 14px;
-      border: 1px solid $color-gray;
-      @include border-radius(3px);
-      margin: 2px;
-      padding: 0 3px;
-      background-color: #f7f7f7;
-    }
-
-    strong {
-      font-family: $font-family;
-      font-size: 12px;
-      line-height: 14px;
-      border: 1px solid #f3f3f3;
-      @include border-radius(3px);
-      font-weight: 500;
-      color: #444;
-      margin: 2px;
-      padding: 0 3px;
-      background-color: #f6f6f6;
-    }
-  }
-
-  .section-content1 {
-    text-align: justify;
-    word-break: break-all;
-    line-height: 18px;
 
     em {
       display: inline-block;
@@ -492,8 +426,7 @@ a {
   height: 24px;
   position: absolute;
   right: 0;
-  //图标与标题间距（高度）
-  top: 0px;
+  top: 10px;
 
   svg {
     width: 100%;
