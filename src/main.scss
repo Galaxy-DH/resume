@@ -225,6 +225,7 @@ a {
   //技术栈：顶部 左右 底部
   //padding: 20px 30px 50px;
   padding: 15px 30px 0px;
+  padding: 5px 30px 0px;
   //padding: 0px 30px 0px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
@@ -338,10 +339,11 @@ a {
 
     .item-time1 {
       color: rgb(0, 0, 0);
-      font-size: 20px;
+      font-size: 18px;
       display: inline-block;
       float: left;
-      width: 50%;
+      //float: right;
+      width: 55%;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
@@ -350,9 +352,21 @@ a {
 
     .item-time2 {
       color: rgb(0, 0, 0);
-      font-size: 18px;
+      font-size: 16px;
       display: inline-block;
       float: left;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+    }
+
+    .item-time3 {
+      color: rgb(0, 0, 0);
+      font-size: 13px;
+      display: inline-block;
+      float: right;
+      width: 96%;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
